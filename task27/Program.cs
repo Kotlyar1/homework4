@@ -1,7 +1,7 @@
 ﻿try
 {
     Console.Write("Введите целое число: ");
-    Int numbers = int.Parse(Console.ReadLine());
+    int numbers = int.Parse(Console.ReadLine());
 
     int SumNumbersInNumber(int number)
     {
@@ -26,7 +26,7 @@
         return count;
     }
 
-    int sumResult = SumNumbersInNumbers(numbers);
+    int sumResult = SumNumbersInNumber(numbers);
     Console.WriteLine("Сумма цифр числа {0} = {1}", numbers, sumResult);
 }
 catch
